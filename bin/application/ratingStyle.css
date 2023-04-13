@@ -1,0 +1,33 @@
+.button
+{
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}
+
+#pane
+{
+	-fx-background-color: lightblue;
+}
+
+#backButton
+{
+	-fx-background-color: red;
+	-fx-text-fill: black;
+}
+
+#text
+{
+	-fx-background-color: #7dcfb6;
+	-fx-border-color: green;
+	-fx-control-inner-background:#7dcfb6;
+}
+
+#confirmLabel
+{
+	-fx-text-fill: green;
+}
+
+#errorLabel
+{
+	-fx-text-fill: red;
+}

@@ -1,0 +1,31 @@
+.button
+{
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}
+
+#pane
+{
+	-fx-background-color: lightblue;
+}
+
+#backButton
+{
+	-fx-background-color: red;
+	-fx-text-fill: black;
+}
+
+#info
+{
+	-fx-background-color: #7dcfb6;
+	-fx-border-color: green;
+	-fx-control-inner-background:#7dcfb6;
+}
+
+#ratings
+{
+	-fx-background-color: #7dcfb6;
+	-fx-border-color: green;
+	-fx-text-fill: green;
+	-fx-control-inner-background:#7dcfb6;
+}

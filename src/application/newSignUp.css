@@ -1,0 +1,23 @@
+#pane 
+{
+	-fx-background-color: lightblue;	
+}
+
+#confirmButton
+{
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}
+
+#errorLabel
+{
+	-fx-text-fill: red;
+}
+
+#backButton
+{
+	-fx-background-color: tomato;
+	-fx-border-color: black;
+	-fx-border-radius: 2.5px;
+	-fx-border-width: 1.5px;
+}

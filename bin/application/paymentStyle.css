@@ -1,0 +1,29 @@
+.button
+{
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}
+
+#backButton
+{
+	-fx-background-color: red;
+	-fx-text-fill: black;
+}
+
+#paidLabel
+{
+	-fx-text-fill: green;
+}
+
+#errorLabel
+{
+	-fx-text-fill: red;
+}
+
+#movieFlow
+{
+	-fx-background-color: #7dcfb6;
+	-fx-border-color: green;
+	-fx-control-inner-background:#7dcfb6;
+	-fx-text-fill: green;
+}

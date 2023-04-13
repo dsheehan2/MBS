@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ViewMovieController">
+   <children>
+      <TextArea fx:id="info" editable="false" layoutX="8.0" layoutY="56.0" prefHeight="208.0" prefWidth="432.0">
+         <font>
+            <Font name="BM JUA OTF" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextArea>
+      <Label layoutX="112.0" text="Movie Details">
+         <font>
+            <Font name="Baloo Da 2 Regular" size="39.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="ratings" editable="false" layoutX="7.0" layoutY="302.0" prefHeight="179.0" prefWidth="432.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font name="Baloo Chettan 2 Regular" size="16.0" />
+         </font></TextArea>
+      <Button fx:id="writeButton" layoutX="75.0" layoutY="512.0" mnemonicParsing="false" onAction="#writeMoviePressed" text="Write Review">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Slider fx:id="slider" layoutX="240.0" layoutY="516.0" majorTickUnit="10.0" max="10.0" minorTickCount="9" onMouseClicked="#delLabel" showTickLabels="true" showTickMarks="true" snapToTicks="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Slider>
+      <Button fx:id="purchaseButton" layoutX="270.0" layoutY="542.0" mnemonicParsing="false" onAction="#grabItemCount" text="Add to Cart">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="ticketLabel" layoutX="251.0" layoutY="495.0" text="Tickets to Add to Cart">
+         <font>
+            <Font name="Baloo Chettan 2 Regular" size="13.0" />
+         </font></Label>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="512.0" mnemonicParsing="false" onAction="#backButtonPressed" text="Back">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="reviewLabel" layoutX="182.0" layoutY="264.0" text="Reviews">
+         <font>
+            <Font name="Baloo Da 2 Regular" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="complete" layoutX="281.0" layoutY="571.0" text="Complete!" textFill="#51c371" visible="false">
+         <font>
+            <Font name="Baloo Chettan 2 Regular" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

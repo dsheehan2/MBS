@@ -1,0 +1,28 @@
+#pane
+{
+	-fx-background-color: lightblue;
+}
+
+#backButton
+{
+	-fx-background-color: red;
+}
+
+#searchButton, #viewButton
+{
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}
+
+#errorLabel
+{
+	-fx-text-fill: red;
+}
+
+#searchbar, #resultArea, #viewbar
+{
+	-fx-background-color: #7dcfb6;
+	-fx-border-color: green;
+	-fx-control-inner-background:#7dcfb6;
+	-fx-prompt-text-fill: green;
+}

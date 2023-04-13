@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="419.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminInterfaceController">
+   <children>
+      <RadioButton fx:id="addRadio" layoutX="79.0" layoutY="44.0" mnemonicParsing="false" onAction="#getDetails" text="Add a Movie">
+         <toggleGroup>
+            <ToggleGroup fx:id="movie" />
+         </toggleGroup>
+      </RadioButton>
+      <Label fx:id="selectLabel" layoutX="124.0" layoutY="14.0" text="Please Select an Option">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="removeRadio" layoutX="233.0" layoutY="44.0" mnemonicParsing="false" onAction="#getDetails" text="Remove a Movie" toggleGroup="$movie" />
+      <Button fx:id="generateButton" layoutX="305.0" layoutY="304.0" mnemonicParsing="false" onAction="#genPressed" text="Generate Report">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <TextField fx:id="removeField" layoutX="130.0" layoutY="130.0" onMouseClicked="#removeFieldPressed" promptText="Movie" visible="false" />
+      <Label fx:id="removeLabel" layoutX="129.0" layoutY="113.0" text="Movie to Remove:" visible="false" />
+      <Button fx:id="confirmButton" layoutX="170.0" layoutY="166.0" mnemonicParsing="false" onAction="#confirmPressed" text="Confirm" visible="false">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="removeValidLabel" layoutX="305.0" layoutY="135.0" prefHeight="17.0" prefWidth="100.0" text="Movie Invalid" visible="false" />
+      <TextField fx:id="addName" layoutX="225.0" layoutY="87.0" onMouseClicked="#addFieldPressed" promptText="Movie Name" visible="false" />
+      <TextField fx:id="addRuntime" layoutX="225.0" layoutY="130.0" onMouseClicked="#addFieldPressed" promptText="Run Time" visible="false" />
+      <Button fx:id="addMovieButton" layoutX="250.0" layoutY="166.0" mnemonicParsing="false" onAction="#addMoviePressed" text="Add Movie" visible="false">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextArea fx:id="addSynopsisArea" layoutX="14.0" layoutY="75.0" onMouseClicked="#addFieldPressed" prefHeight="86.0" prefWidth="171.0" promptText="Enter Synopsis..." visible="false" />
+      <TextArea fx:id="addCastArea" layoutX="14.0" layoutY="175.0" onMouseClicked="#addFieldPressed" prefHeight="86.0" prefWidth="171.0" promptText="Enter Cast Names..." visible="false" />
+      <Label fx:id="addValidLabel" layoutX="209.0" layoutY="228.0" text="Fill All Fields" visible="false" />
+      <RadioButton fx:id="upcomingRadio" layoutX="38.0" layoutY="286.0" mnemonicParsing="false" onAction="#radioDecision" text="Upcoming" visible="false">
+         <toggleGroup>
+            <ToggleGroup fx:id="typer" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="currentRadio" layoutX="38.0" layoutY="309.0" mnemonicParsing="false" onAction="#radioDecision" text="Current Movie" toggleGroup="$typer" visible="false" />
+      <Button fx:id="backButton" layoutX="253.0" layoutY="305.0" mnemonicParsing="false" onAction="#backButtonPressed" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

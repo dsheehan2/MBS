@@ -1,0 +1,34 @@
+Movie: Life of Pie
+User: bw3
+4
+Text: This movie was great!
+
+Movie: Star Wars
+User: bw3
+2
+Text: This movie was not good, later movies were awful!
+
+Movie: Jumping Animals
+User: dmitry70
+3
+Text: A fun movie about animals jumping!
+
+Movie: Star Wars
+User: carl123
+0.0
+Text: This movie was not good!
+
+Movie: Walking Dead
+User: dmitry70
+5.0
+Text: This movie was the best movie. It was about zombies!
+
+Movie: Elf
+User: dylan123
+4.0
+Text: This movie was really good! 
+
+Movie: Elf
+User: carl123
+2.0
+Text: Movie was not good

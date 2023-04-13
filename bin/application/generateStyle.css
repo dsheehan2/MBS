@@ -1,0 +1,16 @@
+#pane
+{
+	-fx-background-color: lightblue;
+}
+
+#backButton
+{
+	-fx-background-color: red;
+}
+
+#currentArea
+{
+	-fx-background-color: #7dcfb6;
+	-fx-border-color: green;
+	-fx-control-inner-background:#7dcfb6;
+}

@@ -1,0 +1,23 @@
+Movie Name: Life of Pie
+Synaposis: Good Movie about Man on Boat with Tiger
+Cast Name: Pie and Tiger
+Runtime: 1hr 30min
+Tickets Bought: 15
+
+Movie Name: Walking Dead
+Synaposis: Zombies and stuff
+Cast Name: Rick and Carl
+Runtime: 3hrs
+Tickets Bought: 1
+
+Movie Name: Smile
+Synaposis: This movies was about a girl smiling.
+Cast Name: Parker Finn
+Runtime: 1hr 20min.
+Tickets Bought: 0
+
+Movie Name: Elf
+Synaposis: Elf is a movie about an elf travelling to  the north pole to see Santa.
+Cast Name: Will Ferell
+Runtime: 1hr 37min
+Tickets Bought: 2

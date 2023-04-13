@@ -1,0 +1,21 @@
+#pane
+{
+	-fx-background-color: lightblue;
+}
+
+#backButton
+{
+	-fx-background-color: red;
+}
+
+#tickets
+{
+	-fx-background-color: #7dcfb6;
+	-fx-border-color: green;
+	-fx-control-inner-background:#7dcfb6;
+}
+
+#complete
+{
+	-fx-text-fill: green;
+}

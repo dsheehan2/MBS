@@ -1,0 +1,21 @@
+#pane
+{
+	-fx-background-color: lightblue;
+}
+
+#generateButton
+{
+	-fx-background-color: green;
+	-fx-text-fill: white;
+}
+
+#confirmButton, #addMovieButton
+{
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}
+
+#backButton
+{
+	-fx-background-color: red;
+}

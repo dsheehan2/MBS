@@ -1,0 +1,15 @@
+#anchor
+{
+	-fx-background-color: lightblue;
+}
+
+#incorrectLabel
+{
+	-fx-text-fill: red;
+}
+
+#loginButton
+{
+	-fx-text-fill: white;
+	-fx-background-color: blue;
+}

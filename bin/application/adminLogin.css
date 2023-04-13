@@ -1,0 +1,20 @@
+#anchor
+{
+	-fx-background-color: lightblue;
+}
+
+#backButton
+{
+	-fx-background-color: red;
+}
+
+#invalidLabel
+{
+	-fx-text-fill: red;
+}
+
+#goButton
+{
+	-fx-background-color: green;
+	-fx-text-fill: white;
+}
